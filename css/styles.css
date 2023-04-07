@@ -464,6 +464,9 @@ img {
 
   background-color: var(--dark-color);
 }
+.footer .container {
+  display: flex;
+}
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -487,6 +490,47 @@ img {
 }
 .footer .text {
   width: 264px;
+}
+.footer-logo-cont {
+  margin-right: 120px;
+}
+.footer-social-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  margin-bottom: 16px;
+
+  /* WHITE */
+
+  color: #ffffff;
+}
+.footer-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-list-item {
+  width: 40px;
+  height: 40px;
+}
+.footer-social-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--primary-barnd-color);
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--pressed-state-cl);
 }
 
 /**
