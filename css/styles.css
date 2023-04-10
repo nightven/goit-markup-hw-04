@@ -468,32 +468,30 @@ img {
   gap: 120px;
 }
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  color: var(--primary-barnd-color);
   display: inline-block;
   align-items: center;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-bottom: 16px;
+
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  color: var(--primary-barnd-color);
 }
 .footer-logo-item,
 .footer .text {
   color: var(--light-color);
 }
 
-.footer-logo {
-  margin-bottom: 16px;
-}
 .footer .text {
   width: 264px;
 }
-/* .footer-logo-cont {
-  margin-right: 120px;
-} */
+
 .footer-social-title {
   font-family: 'Roboto';
   font-style: normal;
