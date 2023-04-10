@@ -133,15 +133,15 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.list .link {
+.list .nav-link {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list .link:hover,
-.list .link:focus {
+.list .nav-link:hover,
+.list .nav-link:focus {
   color: var(--pressed-state-cl);
 }
 
