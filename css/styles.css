@@ -429,6 +429,8 @@ img {
 
   /* padding: 16px 32px; */
 }
+
+/* ===ICONS ===*/
 .castomers-link {
   color: var(--castomer-cl);
 
@@ -442,13 +444,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-.castomers .link:hover,
-.castomers .link:focus {
-  border-color: var(--pressed-state-cl);
-  color: var(--pressed-state-cl);
-}
 .castomers-icon {
   fill: currentColor;
+}
+
+.castomers-link:hover,
+.castomers-link:focus {
+  border-color: var(--pressed-state-cl);
+  color: var(--pressed-state-cl);
 }
 
 /**
