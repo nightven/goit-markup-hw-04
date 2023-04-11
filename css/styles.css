@@ -156,7 +156,10 @@ img {
   display: flex;
   gap: 40px;
 }
-
+.address-item:hover,
+.address-item:focus {
+  color: var(--pressed-state-cl);
+}
 /**
   |============================
   | hero section
